@@ -49,6 +49,8 @@ public class EmployeeServiceImpl implements EmployeeService {
         return employeeRepository.save(employee);
     }
 
+
+    // Method to get reporting structure
     @Override
     public ReportingStructure getReportingStructure(Employee employee) {
 
